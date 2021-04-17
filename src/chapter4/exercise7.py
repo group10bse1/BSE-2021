@@ -14,7 +14,12 @@ def computegrade(score):
         return"bad score"
 
 
-scr = float(input("enter score: "))
+scr = input("enter score: ")
+try:
+    scr = float(scr)
+except:
+    print("Bad score")
+    exit()
 print(computegrade(scr))
 
 
