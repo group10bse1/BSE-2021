@@ -10,3 +10,4 @@ hrs = int(input("enter hours: "))
 rte = int(input("enter rate: "))
 print(computepay(hrs, rte))
 # printing pay finally
+
