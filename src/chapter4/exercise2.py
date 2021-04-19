@@ -3,10 +3,16 @@ def investment(initial, rate, time, number):
     print(initial*(1 + rate/number)**(time*number))
 
 
-c = int(input("enter initial amount: "))
-r = float(input("enter rate: "))
-t = int(input("enter time: "))
-n = int(input("enter number of times: "))
+c = input("enter initial amount: ")
+r = input("enter rate: ")
+t = input("enter time: ")
+n = input("enter number of times: ")
+try:
+    c = int(c)
+    r = float(r)
+    t = int(t)
+    n = int(n)
+except:
+    print("Enter numeric inputs")
+    exit()
 investment(c, r, t, n)
-
-
