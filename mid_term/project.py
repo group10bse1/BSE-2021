@@ -12,6 +12,6 @@ while True:
         print("customer code: ", c_code)
         print("Beginning meter reading: ", f_reading)
         print("Ending meter reading: ", e_reading)
-        print(gallon)
+        print("Gallons of water used: ", gallon)
     else:
         quit()
