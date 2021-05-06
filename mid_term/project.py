@@ -17,6 +17,7 @@ while True:
             else:
                 a_gallon = gallon - 4000000
                 bill = format((a_gallon * 0.00025 + 1000), ".2f")
+        # calculating gallons and bills for customer code i
         else:
             if gallon <= 4000000:
                 bill = format(1000, ".2f")
