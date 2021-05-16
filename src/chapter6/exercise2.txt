@@ -1,0 +1,1 @@
+Fruit[:] means that the letters of the fruit from the first index to the last index  inclusive
