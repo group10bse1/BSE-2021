@@ -1,0 +1,7 @@
+list_num = input('Enter list of numbers:. ')
+new_list = list_num.split(',')
+print(new_list)
+maximum = max((new_list))
+mini = min(new_list)
+print(mini)
+print(maximum)
